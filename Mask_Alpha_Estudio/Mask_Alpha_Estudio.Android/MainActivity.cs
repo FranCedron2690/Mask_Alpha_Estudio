@@ -14,6 +14,7 @@ namespace Mask_Alpha_Estudio.Droid
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
+            FFImageLoading.Forms.Platform.CachedImageRenderer.Init(enableFastRenderer: [true] /[false]);
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
 

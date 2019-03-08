@@ -19,6 +19,7 @@ namespace Mask_Alpha_Estudio.UWP
     {
         public MainPage()
         {
+            FFImageLoading.Forms.Platform.CachedImageRenderer.Init();
             this.InitializeComponent();
 
             LoadApplication(new Mask_Alpha_Estudio.App());
